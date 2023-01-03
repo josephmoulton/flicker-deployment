@@ -1,0 +1,23 @@
+.result__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pagination__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.search__wrapper{
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}

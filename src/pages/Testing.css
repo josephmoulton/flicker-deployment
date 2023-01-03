@@ -1,0 +1,56 @@
+.hidden {
+    display: none;
+  }
+  
+  .user-list {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user {
+    width: 25%;
+  }
+  
+  .user-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .user-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-card__container {
+    padding: 2px 16px;
+  }
+
+  .movie__poster{
+    width: 100%;
+  }
+  
+  .post__search {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .post__search--container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post__search--label {
+    padding-right: 8px;
+  }
+
+  .post__search--input{
+    width: 3%;
+    height: 3%;
+  }

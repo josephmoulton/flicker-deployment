@@ -1,0 +1,36 @@
+.links__container{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.link__title{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.footer__logo--container{
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+.link__container{
+    display: flex;
+    flex-direction: column;
+}
+.footer__link{
+    font-size: 12px;
+    padding-top: 1rem;
+    cursor: not-allowed;
+    transition: all ease 100ms;
+}
+
+
+.footer__link:hover,.footer__logo--container:hover{
+    filter: drop-shadow(1px 0px 5px black);
+    transform: scale(1.1);
+}
+

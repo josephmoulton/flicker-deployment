@@ -1,0 +1,10 @@
+.search {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search__input {
+  padding-left: 4px;
+  font-style: italic;
+}

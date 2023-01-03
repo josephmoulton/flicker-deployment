@@ -1,0 +1,69 @@
+.movie__card {
+  display: flex;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.movie__card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+}
+
+.movie__poster {
+  height: 140px;
+  width: 94px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.movie__info {
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  max-height: 140px;
+}
+
+.title__container {
+  display: flex;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.movie__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.release-date {
+  color: #999;
+  font-size: 14px;
+}
+
+.description {
+  font-size: 1em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+  padding-top: 12px;
+}
