@@ -10,6 +10,7 @@ import Results from "./pages/Results";
 import Credits from "./pages/Credits";
 import GenreResults from "./pages/GenreResults";
 import CrewProfile from "./pages/CrewProfile";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
