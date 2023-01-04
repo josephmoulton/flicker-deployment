@@ -95,7 +95,7 @@ function CrewProfile() {
                 .map((movie) => (
                   <img
                     key={movie.id}
-                    onClick={() => navigate(`/profile:${movie.id}`)}
+                    onClick={() => navigate(`/profile/:${movie.id}`)}
                     src={
                       movie.poster_path
                         ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`

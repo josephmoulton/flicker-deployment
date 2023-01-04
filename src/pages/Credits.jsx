@@ -67,7 +67,7 @@ function Credits() {
               </h2>
             </div>
             <h3 className="return">
-              <Link to={`/profile:${id.replace(":", "")}`} className="link">
+              <Link to={`/profile/:${id.replace(":", "")}`} className="link">
                 <ArrowBackIcon fontSize="small" /> Back to main
               </Link>
             </h3>

@@ -7,7 +7,7 @@ function SearchBox({ result }) {
   const placeholder = result.replace(":", "");
   const [searchInput, setSearchInput] = useState("");
   const navigate = useNavigate();
-  const goToSearch = () => navigate(`/results:${searchInput}`);
+  const goToSearch = () => navigate(`/results/:${searchInput}`);
 
   return (
     <div className="container">

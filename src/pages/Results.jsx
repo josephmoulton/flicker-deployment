@@ -1,12 +1,10 @@
 import React from "react";
 import "./Results.css";
-import { Link, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import placeholderImage from "../assets/DefaultPoster.png";
 import MovieCard from "../components/MovieCard";
 import SearchBox from "../components/SearchBox";
 import { Pagination } from "@mui/material";

@@ -7,7 +7,7 @@ function Credit({ name, character, photo , id }) {
   const navigate = useNavigate();
 
   return (
-    <div className="credit__container" onClick={() => navigate(`/crewprofile:${id}`)}>
+    <div className="credit__container" onClick={() => navigate(`/crewprofile/:${id}`)}>
       <img
         className="photo"
         src={photo ? `https://image.tmdb.org/t/p/w500${photo}` : avatar}

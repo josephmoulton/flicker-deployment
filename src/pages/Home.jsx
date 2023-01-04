@@ -11,7 +11,7 @@ function Home() {
 
   const [searchInput, setSearchInput] = useState("");
   const navigate = useNavigate();
-  const goToSearch = () => navigate(`/results:${searchInput}`);
+  const goToSearch = () => navigate(`/results/:${searchInput}`);
   return (
     <>
       <div className="home">

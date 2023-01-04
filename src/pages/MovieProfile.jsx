@@ -151,7 +151,7 @@ function MovieProfile() {
                   <div className="dot"> • </div>
                   {genres.map((genre) => (
                     <div key={genre.id} className="genres__container">
-                      <Link to={`/genreResults:${genre.id}`}>{genre.name}</Link>
+                      <Link to={`/genreResults/:${genre.id}`}>{genre.name}</Link>
                       <div className="dot"> • </div>
                     </div>
                   ))}
@@ -230,7 +230,7 @@ function MovieProfile() {
         {credits.length > 0 ? (
           <div className="view-more__container">
             <Link
-              to={`/profile:${id.replace(":", "")}/credits:${avgColor}`}
+              to={`/profile/:${id.replace(":", "")}/credits/:${avgColor}`}
               className="cast__link"
             >
               <p>View More</p>
@@ -243,7 +243,7 @@ function MovieProfile() {
       </div>
       <div className="link__container">
         <Link
-          to={`/profile:${id.replace(":", "")}/credits:${avgColor}`}
+          to={`/profile/:${id.replace(":", "")}/credits/:${avgColor}`}
           className="cast__link"
         >
           Full cast & crew <ArrowOutwardIcon />

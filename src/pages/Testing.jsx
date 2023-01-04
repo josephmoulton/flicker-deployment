@@ -62,7 +62,7 @@ function Testing() {
               <div className="user" key={movie.id}>
                 <div className="user-card">
                   <div className="user-card__container">
-                    <Link to={`/profile:${movie.id}`}>
+                    <Link to={`/profile/:${movie.id}`}>
                       <h3>{movie.title}</h3>
                       <p>
                         <b>Popularity:</b> {movie.popularity}
